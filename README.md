@@ -4,6 +4,8 @@ fml-consolelog 是一個支援ANSI顏色及格式化的多行文字輸出函式�
 
 fml-consolelog is a formatted multi-line and ANSI colors supportted text output function module.  
 
+![image](https://raw.githubusercontent.com/WayneChang65/fml-consolelog/master/img/disp_demo.png)  
+
 ## 前言(Overview)
 
 在大多數伺服器模式的應用程式下，無論除錯或取得簡單的立即性資訊都會使用Console.log這個函式。  
@@ -45,8 +47,6 @@ consolelog('basic_chat',
     ['GN:Test Area', '0', 'This is a Test 測試', 'Talking' , 'Wayne Chang', '1234567890']);
 ```
 
-顯示如下圖：
-
 ## 如何跑範例程式？ (How to run the example ?)
 
 * 從Github下載fml-consolelog專案程式碼。  
@@ -87,8 +87,8 @@ npm run start
 ## 貢獻一己之力 (Contribution)
 
 fml-consolelog 雖然是一個小模組，但本人還是希望這個專案能夠持續進步！若有發現臭蟲(bug)或問題，請幫忙在Issue留言告知詳細情形。  
-歡迎共同開發。歡迎Pull Request，謝謝。:)
+歡迎共同開發。歡迎Pull Request，謝謝。:)  
 **★歡迎送PR增加函式輸出格式。**
 
-Even though fml-consolelog is a small project, I hope it can be improving. If there is any issue, please comment and welcome to fork and send Pull Request. Thanks. :)
+Even though fml-consolelog is a small project, I hope it can be improving. If there is any issue, please comment and welcome to fork and send Pull Request. Thanks. :)  
 **★Welcome to send PR and add text output patterns.**
