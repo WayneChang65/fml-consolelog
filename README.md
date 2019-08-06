@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/v/@waynechang65/fml-consolelog.svg)](https://www.npmjs.com/package/@waynechang65/fml-consolelog)
+[![npm](https://img.shields.io/npm/dm/@waynechang65/fml-consolelog.svg)](https://www.npmjs.com/package/@waynechang65/fml-consolelog)
+[![Build Status](https://travis-ci.org/WayneChang65/fml-consolelog.svg?branch=master)](https://travis-ci.org/WayneChang65/fml-consolelog)
+[![GitHub](https://img.shields.io/github/license/waynechang65/fml-consolelog.svg)](https://github.com/WayneChang65/fml-consolelog/)
 # fml-consolelog
 
 fml-consolelog 是一個支援ANSI顏色及格式化的多行文字輸出函式模組。  
