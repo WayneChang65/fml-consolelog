@@ -1,0 +1,27 @@
+{
+  "name": "fml-consolelog",
+  "version": "1.0.0",
+  "description": "fml-consolelog is a formatted multi-line and ANSI colors supportted text output function module.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./examples/demo.js",
+    "test": "jest",
+    "lint": "eslint index.js lib/**/*.js test/**/*.js"
+  },
+  "author": "Wayne Chang",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-string-align": "https://github.com/WayneChang65/ascii-string-align/tarball/v1.1.0a",
+    "chalk": "^2.4.2",
+    "string-width": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0"
+  }
+}
