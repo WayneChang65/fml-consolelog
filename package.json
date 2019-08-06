@@ -1,5 +1,5 @@
 {
-  "name": "fml-consolelog",
+  "name": "@waynechang65/fml-consolelog",
   "version": "1.0.0",
   "description": "fml-consolelog is a formatted multi-line and ANSI colors supportted text output function module.",
   "main": "index.js",
