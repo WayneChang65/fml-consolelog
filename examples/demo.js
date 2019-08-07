@@ -32,3 +32,5 @@ fmlog('crawler_msg', ['NO CMD', 'Ptt-Crawler', '-'.repeat(26), '99', '2019/07/30
 fmlog('basic_msg', ['P2R', 'POP', 'Reply msg to group', '小妹空間']);
 fmlog('basic_msg', ['A車位', '月租', '車號：ABC-1234', '張小彥']);
 //fmlog('basic_msg', ['0', '1', '2', '3']);
+
+fmlog('event_msg', ['FOLLOW', 'Someone get in! 讚', 'ABCDEFG12345']);
