@@ -40,14 +40,14 @@ npm install @waynechang65/fml-consolelog
 Include @waynechang65/fml-consolelog package in your project
 
 ```javascript
-const fml_consolelog = require('@waynechang65/fml-consolelog');
+const fmlog = require('@waynechang65/fml-consolelog').log;
 ```
 
 * 接下來，依照欲使用的函式格式填入適當欄位資料即可。  
 Add programs below in your project  
 
 ```javascript
-consolelog('basic_chat',  
+fmlog('basic_chat',  
     ['GN:Test Area', '0', 'This is a Test 測試', 'Talking' , 'Wayne Chang', '1234567890']);
 ```
 
