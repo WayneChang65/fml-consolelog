@@ -1,6 +1,7 @@
 [![npm](https://img.shields.io/npm/v/@waynechang65/fml-consolelog.svg)](https://www.npmjs.com/package/@waynechang65/fml-consolelog)
 [![npm](https://img.shields.io/npm/dm/@waynechang65/fml-consolelog.svg)](https://www.npmjs.com/package/@waynechang65/fml-consolelog)
-[![Build Status](https://travis-ci.org/WayneChang65/fml-consolelog.svg?branch=master)](https://travis-ci.org/WayneChang65/fml-consolelog)
+[![Npm package total downloads](https://badgen.net/npm/dt/@waynechang65/fml-consolelog)](https://npmjs.ccom/package/@waynechang65/fml-consolelog)
+[![Build Status](https://travis-ci.com/WayneChang65/fml-consolelog.svg?branch=master)](https://travis-ci.com/WayneChang65/fml-consolelog)
 [![GitHub](https://img.shields.io/github/license/waynechang65/fml-consolelog.svg)](https://github.com/WayneChang65/fml-consolelog/)
 # fml-consolelog
 
