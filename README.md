@@ -1,9 +1,9 @@
+# fml-consolelog
+
 [![npm](https://img.shields.io/npm/v/@waynechang65/fml-consolelog.svg)](https://www.npmjs.com/package/@waynechang65/fml-consolelog)
 [![npm](https://img.shields.io/npm/dm/@waynechang65/fml-consolelog.svg)](https://www.npmjs.com/package/@waynechang65/fml-consolelog)
 [![Npm package total downloads](https://badgen.net/npm/dt/@waynechang65/fml-consolelog)](https://npmjs.ccom/package/@waynechang65/fml-consolelog)
 [![GitHub](https://img.shields.io/github/license/waynechang65/fml-consolelog.svg)](https://github.com/WayneChang65/fml-consolelog/)
-
-# fml-consolelog
 
 fml-consolelog 是一個支援ANSI顏色及格式化的多行文字輸出函式模組。  
 
@@ -41,7 +41,13 @@ npm install @waynechang65/fml-consolelog
 Include @waynechang65/fml-consolelog package in your project
 
 ```javascript
+// CommonJS
 const fmlog = require('@waynechang65/fml-consolelog').log;
+```
+
+```javascript
+// ES Module
+import { log as fmlog } from '@waynechang65/fml-consolelog';
 ```
 
 * 接下來，依照欲使用的函式格式填入適當欄位資料即可。  
@@ -75,11 +81,17 @@ Install dependencies in the cloned fml-consolelog folder
 npm install
 ```
 
-* 透過 npm 直接使用以下指令。(實際範例程式在 ./examples/demo.js)  
-Run it with npm. (the demo example is in ./examples/demo.js)
+* 透過 npm 直接使用以下指令。(實際範例程式在 ./src/examples/demo.ts or demo.cjs)  
+Run it with npm. (the demo example is in .src/examples/demo.ts or demo.cjs)
 
 ```bash
+// for ts
 npm run start
+```
+
+```bash
+// for cjs
+npm run start-cjs
 ```
 
 ## 基本函式 (Base Methods)
