@@ -1,6 +1,6 @@
 {
   "name": "@waynechang65/fml-consolelog",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "fml-consolelog is a formatted multi-line and ANSI colors supportted text output function module.",
   "type": "module",
   "main": "dist/index.js",
@@ -9,9 +9,9 @@
     "dist/**"
   ],
   "directories": {
-    "example": "examples",
-    "lib": "lib",
-    "test": "test"
+    "lib": "dist",
+    "example": "src/examples",
+    "test": "src/test"
   },
   "scripts": {
     "build": "tsc",
@@ -50,5 +50,10 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"
+  },
+  "overrides": {
+    "vitest": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
   }
 }
