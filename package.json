@@ -20,7 +20,8 @@
     "test:watch": "vitest",
     "lint": "eslint . --ext .ts",
     "start": "tsx src/examples/demo.ts",
-    "start-cjs": "node src/examples/demo.cjs"
+    "start-cjs": "node src/examples/demo.cjs",
+    "publish": "npm run build && npm publish"
   },
   "keywords": [
     "console-log",
