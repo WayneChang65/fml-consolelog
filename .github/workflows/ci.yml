@@ -35,6 +35,31 @@ jobs:
               run: npm run test
             - name: Build project
               run: npm run build
+            - name: Verify ESM build
+              run: |
+                  node -e '
+                  (async () => {
+                      const url = "file://" + process.cwd() + "/dist/index.js";
+                      const pkg = await import(url);
+                      if (typeof pkg.log !== "function") {
+                          console.error("ESM check failed: no log() export");
+                          process.exit(1);
+                      }
+                      console.log("ESM build OK");
+                  })();
+                  '
+            - name: Verify CJS build
+              run: |
+                  node -e '
+                  const { createRequire } = require("node:module");
+                  const req = createRequire(process.cwd() + "/");
+                  const mod = req("./dist/cjs/index.cjs");
+                  if (typeof mod.log !== "function") {
+                      console.error("CJS check failed: no log() export");
+                      process.exit(1);
+                  }
+                  console.log("CJS build OK");
+                  '
             - name: Run start ts
               run: npm run start
             - name: Run start-cjs
