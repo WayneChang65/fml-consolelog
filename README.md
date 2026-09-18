@@ -40,13 +40,16 @@ npm install @waynechang65/fml-consolelog
 * 在您的專案環境中，引用 fml-consolelog模組。  
 Include @waynechang65/fml-consolelog package in your project
 
+本套件同時提供 ESM 與 CommonJS 雙格式（dual-format）輸出，透過 package.json 的 `exports` 自動解析：  
+This package ships dual-format (ESM + CommonJS) via package `exports` (`import` → ./dist/index.js, `require` → ./dist/cjs/index.cjs, types → ./dist/index.d.ts).
+
 ```javascript
-// CommonJS
-const fmlog = require('@waynechang65/fml-consolelog').log;
+// CommonJS (require → ./dist/cjs/index.cjs)
+const { log: fmlog } = require('@waynechang65/fml-consolelog');
 ```
 
 ```javascript
-// ES Module
+// ES Module (import → ./dist/index.js)
 import { log as fmlog } from '@waynechang65/fml-consolelog';
 ```
 
